@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D2134" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="ByX-kY-Zs1">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="background_image_" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" highlightedImage="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="paR-UW-R1B">
+                                <rect key="frame" x="46" y="40" width="228" height="188"/>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFit" contentHorizontalAlignment="fill" contentVerticalAlignment="center" text="UCL email" borderStyle="roundedRect" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gf8-ye-nPl">
+                                <rect key="frame" x="61" y="238" width="189" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.9083974091" blue="0.054207465789999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="STHeitiSC-Light" family="Heiti SC" pointSize="15"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFit" contentHorizontalAlignment="fill" contentVerticalAlignment="center" text="password" borderStyle="roundedRect" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1yB-bB-D6G">
+                                <rect key="frame" x="61" y="298" width="189" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.9083974091" blue="0.054207465789999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="STHeitiSC-Light" family="Heiti SC" pointSize="15"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GUh-TQ-bU8">
+                                <rect key="frame" x="77" y="434" width="166" height="24"/>
+                                <fontDescription key="fontDescription" name="STHeitiSC-Light" family="Heiti SC" pointSize="12"/>
+                                <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="I don't have an account yet!">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="isSignUpAsClient:" destination="BYZ-38-t0r" eventType="touchUpInside" id="07w-zX-T66"/>
+                                    <action selector="pressedSignUpAsClient:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YVg-98-kfy"/>
+                                    <segue destination="ByX-kY-Zs1" kind="push" identifier="goToQuestion1" id="tII-CT-45Z"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y8x-0s-d1e">
+                                <rect key="frame" x="87" y="494" width="146" height="24"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="STHeitiSC-Light" family="Heiti SC" pointSize="12"/>
+                                <color key="tintColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="    sign up as a therapist    ">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QYu-Gf-7PW">
+                                <rect key="frame" x="129" y="394" width="52" height="32"/>
+                                <fontDescription key="fontDescription" name="STHeitiSC-Light" family="Heiti SC" pointSize="20"/>
+                                <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="log in">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.9083974091" blue="0.054207465789999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="paR-UW-R1B" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="30" id="1Rt-Kz-jXx"/>
+                            <constraint firstAttribute="centerX" secondItem="1yB-bB-D6G" secondAttribute="centerX" constant="4.5" id="2Lh-Ha-STq"/>
+                            <constraint firstItem="gf8-ye-nPl" firstAttribute="width" secondItem="1yB-bB-D6G" secondAttribute="width" id="2nD-g9-7Ke"/>
+                            <constraint firstAttribute="centerX" secondItem="gf8-ye-nPl" secondAttribute="centerX" constant="4.5" id="8ps-gn-Sma"/>
+                            <constraint firstItem="gf8-ye-nPl" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="1:3" id="BRU-Rc-N8O"/>
+                            <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="paR-UW-R1B" secondAttribute="trailing" constant="30" id="DbZ-R6-FYU"/>
+                            <constraint firstItem="1yB-bB-D6G" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="1:3" id="EoH-KG-AQx"/>
+                            <constraint firstAttribute="centerX" secondItem="GUh-TQ-bU8" secondAttribute="centerX" constant="-0.5" id="GMx-Zc-uRi"/>
+                            <constraint firstAttribute="centerY" secondItem="paR-UW-R1B" secondAttribute="centerY" constant="150" id="Gou-GH-3sd"/>
+                            <constraint firstAttribute="centerX" secondItem="Y8x-0s-d1e" secondAttribute="centerX" constant="-0.5" id="KOQ-73-8Rj"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Y8x-0s-d1e" secondAttribute="bottom" constant="50" id="Kfr-tl-0nb"/>
+                            <constraint firstAttribute="centerX" secondItem="QYu-Gf-7PW" secondAttribute="centerX" constant="5" id="LUT-5V-TYC"/>
+                            <constraint firstItem="Y8x-0s-d1e" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="40" id="Si3-SY-04v"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="QYu-Gf-7PW" secondAttribute="bottom" constant="140" id="XGv-HG-IP4"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="GUh-TQ-bU8" secondAttribute="bottom" constant="110" id="e9I-WY-KYY"/>
+                            <constraint firstItem="paR-UW-R1B" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="eqd-fb-GvN"/>
+                            <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="Y8x-0s-d1e" secondAttribute="trailing" constant="40" id="mIi-7Z-seZ"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="1yB-bB-D6G" secondAttribute="bottom" constant="240" id="pPK-mG-WA4"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="gf8-ye-nPl" secondAttribute="bottom" constant="300" id="tOu-Xk-CBO"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="signUpAsClient" destination="GUh-TQ-bU8" id="MvC-bg-JUF"/>
+                        <outlet property="signUpAsTherapist" destination="Y8x-0s-d1e" id="a9q-FU-yZ9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="111" y="343"/>
+        </scene>
+        <!--Title-->
+        <scene sceneID="ONC-er-Gyt">
+            <objects>
+                <viewController id="ByX-kY-Zs1" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="byX-yR-ezV"/>
+                        <viewControllerLayoutGuide type="bottom" id="lxX-Zj-Ii9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="UjW-jN-kQg">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How directive do you want your therapist to be?" textAlignment="center" lineBreakMode="clip" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pF2-C5-ArB">
+                                <rect key="frame" x="21" y="90" width="263" height="81"/>
+                                <fontDescription key="fontDescription" name="STHeitiSC-Light" family="Heiti SC" pointSize="21"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="3.5" minValue="0.0" maxValue="7" translatesAutoresizingMaskIntoConstraints="NO" id="4HU-ag-yPF">
+                                <rect key="frame" x="31" y="429" width="258" height="31"/>
+                                <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </slider>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qq9-q5-V2N">
+                                <rect key="frame" x="-16" y="530" width="174" height="30"/>
+                                <fontDescription key="fontDescription" name="STHeitiSC-Light" family="Heiti SC" pointSize="16"/>
+                                <state key="normal" title="&lt; take me back">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qgk-wz-bNv">
+                                <rect key="frame" x="196" y="530" width="174" height="30"/>
+                                <fontDescription key="fontDescription" name="STHeitiSC-Light" family="Heiti SC" pointSize="16"/>
+                                <state key="normal" title="next &gt;">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="bulle2" highlightedImage="bulle1" translatesAutoresizingMaskIntoConstraints="NO" id="lut-DO-Wav">
+                                <rect key="frame" x="0.0" y="12" width="320" height="374"/>
+                            </imageView>
+                            <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="HvU-5k-HPp">
+                                <rect key="frame" x="137" y="378" width="94" height="29"/>
+                            </stepper>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.9083974091" blue="0.054207465789999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="lxX-Zj-Ii9" firstAttribute="top" secondItem="lut-DO-Wav" secondAttribute="bottom" constant="184" id="KCV-Kk-zou"/>
+                            <constraint firstItem="lut-DO-Wav" firstAttribute="leading" secondItem="UjW-jN-kQg" secondAttribute="leadingMargin" constant="-16" id="fBY-gS-I0I"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="lut-DO-Wav" secondAttribute="trailing" constant="-16" id="kPZ-uU-4Xl"/>
+                            <constraint firstItem="lut-DO-Wav" firstAttribute="top" secondItem="UjW-jN-kQg" secondAttribute="topMargin" constant="10" id="m7j-UC-ljP"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Title" id="X94-zU-dGz"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qxN-FG-7MS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="529" y="335"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Logo" width="1494" height="1050"/>
+        <image name="bulle1" width="1121" height="1058"/>
+        <image name="bulle2" width="1355" height="1282"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
