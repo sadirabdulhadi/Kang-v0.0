@@ -8,9 +8,8 @@
 
 import UIKit
 
-class Question1: UIViewController {
-    @IBAction func Scoring(sender: AnyObject) {
-    }
+class question1: UIViewController {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         /* signUpAsTherapistButton.layer.cornerRadius = 10*/

@@ -99,7 +99,7 @@
         <!--Title-->
         <scene sceneID="ONC-er-Gyt">
             <objects>
-                <viewController id="ByX-kY-Zs1" customClass="Question1" customModule="background_image_" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="ByX-kY-Zs1" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="byX-yR-ezV"/>
                         <viewControllerLayoutGuide type="bottom" id="lxX-Zj-Ii9"/>
@@ -108,71 +108,74 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="3.5" minValue="0.0" maxValue="7" translatesAutoresizingMaskIntoConstraints="NO" id="4HU-ag-yPF">
-                                <rect key="frame" x="31" y="429" width="258" height="31"/>
-                                <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <connections>
-                                    <action selector="Scoring:" destination="ByX-kY-Zs1" eventType="valueChanged" id="ROg-yc-zpK"/>
-                                </connections>
-                            </slider>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qq9-q5-V2N">
-                                <rect key="frame" x="11" y="532" width="123" height="28"/>
-                                <fontDescription key="fontDescription" name="STHeitiSC-Light" family="Heiti SC" pointSize="16"/>
-                                <state key="normal" title="&lt; take me back">
-                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qgk-wz-bNv">
-                                <rect key="frame" x="256" y="530" width="47" height="30"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="bulle2" highlightedImage="bulle1" translatesAutoresizingMaskIntoConstraints="NO" id="lut-DO-Wav">
+                                <rect key="frame" x="0.0" y="9" width="320" height="374"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Dt-VZ-Jdf">
+                                <rect key="frame" x="139" y="391" width="42" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="EY3-Xx-tSP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qgk-wz-bNv">
+                                <rect key="frame" x="196" y="530" width="174" height="30"/>
                                 <fontDescription key="fontDescription" name="STHeitiSC-Light" family="Heiti SC" pointSize="16"/>
                                 <state key="normal" title="next &gt;">
                                     <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bulle2" highlightedImage="bulle1" translatesAutoresizingMaskIntoConstraints="NO" id="lut-DO-Wav">
-                                <rect key="frame" x="0.0" y="10" width="320" height="374"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How directive do you want your therapist to be?" textAlignment="center" lineBreakMode="clip" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Gm-GP-jzd">
-                                <rect key="frame" x="24" y="112" width="263" height="81"/>
-                                <fontDescription key="fontDescription" name="STHeitiSC-Light" family="Heiti SC" pointSize="21"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RbG-9q-ZoN">
-                                <rect key="frame" x="139" y="402" width="42" height="20.5"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qq9-q5-V2N">
+                                <rect key="frame" x="-16" y="530" width="174" height="30"/>
+                                <fontDescription key="fontDescription" name="STHeitiSC-Light" family="Heiti SC" pointSize="16"/>
+                                <state key="normal" title="&lt; take me back">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="3.5" minValue="0.0" maxValue="7" translatesAutoresizingMaskIntoConstraints="NO" id="4HU-ag-yPF">
+                                <rect key="frame" x="31" y="429" width="258" height="31"/>
+                                <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How directive do you want your therapist to be?" textAlignment="center" lineBreakMode="clip" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C2o-V9-svC">
+                                <rect key="frame" x="16" y="96" width="283" height="69"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="69" id="Fod-tI-7ck"/>
+                                    <constraint firstAttribute="width" constant="283" id="Ob4-4e-cA3"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="STHeitiSC-Light" family="Heiti SC" pointSize="20"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.9083974091" blue="0.054207465789999999" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstItem="C2o-V9-svC" firstAttribute="top" secondItem="byX-yR-ezV" secondAttribute="bottom" constant="76" id="59e-Yg-7Cm"/>
+                            <constraint firstItem="C2o-V9-svC" firstAttribute="leading" secondItem="UjW-jN-kQg" secondAttribute="leadingMargin" id="DOL-EZ-FaI"/>
                             <constraint firstItem="lxX-Zj-Ii9" firstAttribute="top" secondItem="lut-DO-Wav" secondAttribute="bottom" constant="184" id="KCV-Kk-zou"/>
-                            <constraint firstItem="2Gm-GP-jzd" firstAttribute="leading" secondItem="UjW-jN-kQg" secondAttribute="leadingMargin" constant="8" id="KMw-JN-mJ6"/>
-                            <constraint firstItem="lxX-Zj-Ii9" firstAttribute="top" secondItem="Qgk-wz-bNv" secondAttribute="bottom" constant="8" id="U8L-VX-Bva"/>
-                            <constraint firstItem="Qgk-wz-bNv" firstAttribute="leading" secondItem="UjW-jN-kQg" secondAttribute="leadingMargin" constant="240" id="WKK-Ds-hOa"/>
-                            <constraint firstItem="lxX-Zj-Ii9" firstAttribute="top" secondItem="4HU-ag-yPF" secondAttribute="bottom" constant="109" id="ZoY-M1-ZfS"/>
-                            <constraint firstAttribute="centerX" secondItem="RbG-9q-ZoN" secondAttribute="centerX" id="amH-xE-4w4"/>
-                            <constraint firstItem="lxX-Zj-Ii9" firstAttribute="top" secondItem="RbG-9q-ZoN" secondAttribute="bottom" constant="145.5" id="ddM-LW-rzJ"/>
+                            <constraint firstItem="lxX-Zj-Ii9" firstAttribute="top" secondItem="4HU-ag-yPF" secondAttribute="bottom" constant="109" id="Kfi-Ce-L6m"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="C2o-V9-svC" secondAttribute="trailing" constant="5" id="NTp-yZ-tXI"/>
+                            <constraint firstItem="4HU-ag-yPF" firstAttribute="leading" secondItem="UjW-jN-kQg" secondAttribute="leadingMargin" constant="17" id="QIj-cj-D7L"/>
+                            <constraint firstItem="Qgk-wz-bNv" firstAttribute="leading" secondItem="UjW-jN-kQg" secondAttribute="leadingMargin" constant="180" id="SUE-gV-iyU"/>
+                            <constraint firstItem="lxX-Zj-Ii9" firstAttribute="top" secondItem="qq9-q5-V2N" secondAttribute="bottom" constant="8" id="Taw-Dj-BdN"/>
+                            <constraint firstItem="4HU-ag-yPF" firstAttribute="centerX" secondItem="1Dt-VZ-Jdf" secondAttribute="centerX" id="TnC-LK-9ZN"/>
+                            <constraint firstItem="Qgk-wz-bNv" firstAttribute="top" secondItem="4HU-ag-yPF" secondAttribute="bottom" constant="71" id="dNb-m1-WT8"/>
                             <constraint firstItem="lut-DO-Wav" firstAttribute="leading" secondItem="UjW-jN-kQg" secondAttribute="leadingMargin" constant="-16" id="fBY-gS-I0I"/>
+                            <constraint firstItem="C2o-V9-svC" firstAttribute="top" secondItem="byX-yR-ezV" secondAttribute="bottom" constant="76" id="fzu-99-6Sx"/>
+                            <constraint firstItem="lxX-Zj-Ii9" firstAttribute="top" secondItem="Qgk-wz-bNv" secondAttribute="bottom" constant="8" id="iIJ-kh-hgd"/>
                             <constraint firstAttribute="trailingMargin" secondItem="lut-DO-Wav" secondAttribute="trailing" constant="-16" id="kPZ-uU-4Xl"/>
-                            <constraint firstItem="2Gm-GP-jzd" firstAttribute="top" secondItem="byX-yR-ezV" secondAttribute="bottom" constant="92" id="lkm-q1-ubS"/>
                             <constraint firstItem="lut-DO-Wav" firstAttribute="top" secondItem="UjW-jN-kQg" secondAttribute="topMargin" constant="10" id="m7j-UC-ljP"/>
-                            <constraint firstItem="4HU-ag-yPF" firstAttribute="top" secondItem="RbG-9q-ZoN" secondAttribute="bottom" constant="6" id="pOF-QC-RJ8"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="2Gm-GP-jzd" secondAttribute="trailing" constant="17" id="pyB-xf-bvR"/>
-                            <constraint firstItem="lxX-Zj-Ii9" firstAttribute="top" secondItem="qq9-q5-V2N" secondAttribute="bottom" constant="8" id="qCT-tS-p0i"/>
-                            <constraint firstItem="lxX-Zj-Ii9" firstAttribute="top" secondItem="2Gm-GP-jzd" secondAttribute="bottom" constant="375" id="s2K-eS-yFq"/>
-                            <constraint firstAttribute="centerX" secondItem="4HU-ag-yPF" secondAttribute="centerX" id="t4C-fd-pW0"/>
-                            <constraint firstItem="4HU-ag-yPF" firstAttribute="centerX" secondItem="RbG-9q-ZoN" secondAttribute="centerX" id="tfd-Dx-H0M"/>
-                            <constraint firstItem="4HU-ag-yPF" firstAttribute="trailing" secondItem="2Gm-GP-jzd" secondAttribute="trailing" id="uqI-H7-Xrj"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="qq9-q5-V2N" secondAttribute="trailing" constant="170" id="w0h-Mk-mWG"/>
-                            <constraint firstAttribute="centerX" secondItem="4HU-ag-yPF" secondAttribute="centerX" id="z4L-kH-exI"/>
-                            <constraint firstItem="Qgk-wz-bNv" firstAttribute="top" secondItem="4HU-ag-yPF" secondAttribute="bottom" constant="71" id="zNA-Js-1UX"/>
+                            <constraint firstItem="4HU-ag-yPF" firstAttribute="top" secondItem="1Dt-VZ-Jdf" secondAttribute="bottom" constant="17" id="oiG-CQ-qz4"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="qq9-q5-V2N" secondAttribute="trailing" constant="146" id="pCS-w1-yWs"/>
+                            <constraint firstAttribute="centerX" secondItem="4HU-ag-yPF" secondAttribute="centerX" id="u1p-QJ-njK"/>
+                            <constraint firstItem="1Dt-VZ-Jdf" firstAttribute="top" secondItem="C2o-V9-svC" secondAttribute="bottom" constant="226" id="uNv-PW-Cgj"/>
+                            <constraint firstAttribute="centerX" secondItem="C2o-V9-svC" secondAttribute="centerX" constant="3" id="vcR-eB-t37"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Title" id="HPx-o0-NIA"/>
+                    <navigationItem key="navigationItem" title="Title" id="X94-zU-dGz"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qxN-FG-7MS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
