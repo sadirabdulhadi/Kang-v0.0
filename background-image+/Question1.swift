@@ -8,19 +8,14 @@
 
 import UIKit
 
-class question1: UIViewController {
-    
-    override func viewDidLoad() {
+class Question1: UIViewController {
+        override func viewDidLoad() {
         super.viewDidLoad()
-        /* signUpAsTherapistButton.layer.cornerRadius = 10*/
-        
-        // Do any additional setup after loading the view, typically from a nib.
-    }
+           }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
+            }
     
     
 }
