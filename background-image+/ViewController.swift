@@ -12,12 +12,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var email: UITextField!
     @IBOutlet weak var password: UITextField!
 
-    @IBOutlet weak var signUpAsClient: UIButton!
     @IBOutlet weak var signUpAsTherapist: UIButton!
-    @IBAction func pressedSignUpAsClient(sender: UIButton) {
-        performSegueWithIdentifier("goToQuestion1", sender: signUpAsClient)
-        
-    }
+    
 
     
 

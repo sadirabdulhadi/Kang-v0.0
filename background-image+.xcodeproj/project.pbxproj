@@ -15,6 +15,9 @@
 		0BE801F21C6525AB00E761A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BE801F01C6525AB00E761A6 /* Main.storyboard */; };
 		0BE802031C66AF2300E761A6 /* Question1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE802021C66AF2300E761A6 /* Question1.swift */; };
 		0BE802051C66AF3300E761A6 /* Question2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE802041C66AF3300E761A6 /* Question2.swift */; };
+		0BE802071C67BC9E00E761A6 /* Question3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE802061C67BC9E00E761A6 /* Question3.swift */; };
+		0BE802091C67C1E200E761A6 /* Question4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE802081C67C1E200E761A6 /* Question4.swift */; };
+		0BE8020B1C67CF0600E761A6 /* signUpPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE8020A1C67CF0600E761A6 /* signUpPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,9 @@
 		0BE801F11C6525AB00E761A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0BE802021C66AF2300E761A6 /* Question1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Question1.swift; sourceTree = "<group>"; };
 		0BE802041C66AF3300E761A6 /* Question2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Question2.swift; sourceTree = "<group>"; };
+		0BE802061C67BC9E00E761A6 /* Question3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Question3.swift; sourceTree = "<group>"; };
+		0BE802081C67C1E200E761A6 /* Question4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Question4.swift; sourceTree = "<group>"; };
+		0BE8020A1C67CF0600E761A6 /* signUpPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = signUpPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,8 +90,11 @@
 				0BE8018A1C63CD5700E761A6 /* AppDelegate.swift */,
 				0BE801F01C6525AB00E761A6 /* Main.storyboard */,
 				0BE8018C1C63CD5700E761A6 /* ViewController.swift */,
+				0BE8020A1C67CF0600E761A6 /* signUpPage.swift */,
 				0BE802021C66AF2300E761A6 /* Question1.swift */,
 				0BE802041C66AF3300E761A6 /* Question2.swift */,
+				0BE802061C67BC9E00E761A6 /* Question3.swift */,
+				0BE802081C67C1E200E761A6 /* Question4.swift */,
 				0BE801911C63CD5700E761A6 /* Images.xcassets */,
 				0BE801931C63CD5700E761A6 /* LaunchScreen.xib */,
 				0BE801881C63CD5700E761A6 /* Supporting Files */,
@@ -220,6 +229,9 @@
 			files = (
 				0BE802051C66AF3300E761A6 /* Question2.swift in Sources */,
 				0BE8018D1C63CD5700E761A6 /* ViewController.swift in Sources */,
+				0BE802091C67C1E200E761A6 /* Question4.swift in Sources */,
+				0BE8020B1C67CF0600E761A6 /* signUpPage.swift in Sources */,
+				0BE802071C67BC9E00E761A6 /* Question3.swift in Sources */,
 				0BE802031C66AF2300E761A6 /* Question1.swift in Sources */,
 				0BE8018B1C63CD5700E761A6 /* AppDelegate.swift in Sources */,
 			);
