@@ -31,13 +31,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0BE801851C63CD5700E761A6 /* background-image+.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "background-image+.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BE801851C63CD5700E761A6 /* Kang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kang.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BE801891C63CD5700E761A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0BE8018A1C63CD5700E761A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0BE8018C1C63CD5700E761A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0BE801911C63CD5700E761A6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		0BE801941C63CD5700E761A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		0BE8019A1C63CD5700E761A6 /* background-image+Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "background-image+Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BE8019A1C63CD5700E761A6 /* KangTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KangTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BE8019F1C63CD5700E761A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0BE801A01C63CD5700E761A6 /* background_image_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = background_image_Tests.swift; sourceTree = "<group>"; };
 		0BE801F11C6525AB00E761A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -69,8 +69,8 @@
 		0BE8017C1C63CD5700E761A6 = {
 			isa = PBXGroup;
 			children = (
-				0BE801871C63CD5700E761A6 /* background-image+ */,
-				0BE8019D1C63CD5700E761A6 /* background-image+Tests */,
+				0BE801871C63CD5700E761A6 /* Kang */,
+				0BE8019D1C63CD5700E761A6 /* KangTests */,
 				0BE801861C63CD5700E761A6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -78,13 +78,13 @@
 		0BE801861C63CD5700E761A6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0BE801851C63CD5700E761A6 /* background-image+.app */,
-				0BE8019A1C63CD5700E761A6 /* background-image+Tests.xctest */,
+				0BE801851C63CD5700E761A6 /* Kang.app */,
+				0BE8019A1C63CD5700E761A6 /* KangTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0BE801871C63CD5700E761A6 /* background-image+ */ = {
+		0BE801871C63CD5700E761A6 /* Kang */ = {
 			isa = PBXGroup;
 			children = (
 				0BE8018A1C63CD5700E761A6 /* AppDelegate.swift */,
@@ -99,6 +99,7 @@
 				0BE801931C63CD5700E761A6 /* LaunchScreen.xib */,
 				0BE801881C63CD5700E761A6 /* Supporting Files */,
 			);
+			name = Kang;
 			path = "background-image+";
 			sourceTree = "<group>";
 		};
@@ -110,12 +111,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		0BE8019D1C63CD5700E761A6 /* background-image+Tests */ = {
+		0BE8019D1C63CD5700E761A6 /* KangTests */ = {
 			isa = PBXGroup;
 			children = (
 				0BE801A01C63CD5700E761A6 /* background_image_Tests.swift */,
 				0BE8019E1C63CD5700E761A6 /* Supporting Files */,
 			);
+			name = KangTests;
 			path = "background-image+Tests";
 			sourceTree = "<group>";
 		};
@@ -130,9 +132,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0BE801841C63CD5700E761A6 /* background-image+ */ = {
+		0BE801841C63CD5700E761A6 /* Kang */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0BE801A41C63CD5700E761A6 /* Build configuration list for PBXNativeTarget "background-image+" */;
+			buildConfigurationList = 0BE801A41C63CD5700E761A6 /* Build configuration list for PBXNativeTarget "Kang" */;
 			buildPhases = (
 				0BE801811C63CD5700E761A6 /* Sources */,
 				0BE801821C63CD5700E761A6 /* Frameworks */,
@@ -142,14 +144,14 @@
 			);
 			dependencies = (
 			);
-			name = "background-image+";
+			name = Kang;
 			productName = "background-image+";
-			productReference = 0BE801851C63CD5700E761A6 /* background-image+.app */;
+			productReference = 0BE801851C63CD5700E761A6 /* Kang.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0BE801991C63CD5700E761A6 /* background-image+Tests */ = {
+		0BE801991C63CD5700E761A6 /* KangTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0BE801A71C63CD5700E761A6 /* Build configuration list for PBXNativeTarget "background-image+Tests" */;
+			buildConfigurationList = 0BE801A71C63CD5700E761A6 /* Build configuration list for PBXNativeTarget "KangTests" */;
 			buildPhases = (
 				0BE801961C63CD5700E761A6 /* Sources */,
 				0BE801971C63CD5700E761A6 /* Frameworks */,
@@ -160,9 +162,9 @@
 			dependencies = (
 				0BE8019C1C63CD5700E761A6 /* PBXTargetDependency */,
 			);
-			name = "background-image+Tests";
+			name = KangTests;
 			productName = "background-image+Tests";
-			productReference = 0BE8019A1C63CD5700E761A6 /* background-image+Tests.xctest */;
+			productReference = 0BE8019A1C63CD5700E761A6 /* KangTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -183,7 +185,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0BE801801C63CD5700E761A6 /* Build configuration list for PBXProject "background-image+" */;
+			buildConfigurationList = 0BE801801C63CD5700E761A6 /* Build configuration list for PBXProject "Kang" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -196,8 +198,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0BE801841C63CD5700E761A6 /* background-image+ */,
-				0BE801991C63CD5700E761A6 /* background-image+Tests */,
+				0BE801841C63CD5700E761A6 /* Kang */,
+				0BE801991C63CD5700E761A6 /* KangTests */,
 			);
 		};
 /* End PBXProject section */
@@ -250,7 +252,7 @@
 /* Begin PBXTargetDependency section */
 		0BE8019C1C63CD5700E761A6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0BE801841C63CD5700E761A6 /* background-image+ */;
+			target = 0BE801841C63CD5700E761A6 /* Kang */;
 			targetProxy = 0BE8019B1C63CD5700E761A6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -364,7 +366,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "background-image+/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Kang;
 			};
 			name = Debug;
 		};
@@ -374,7 +376,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "background-image+/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Kang;
 			};
 			name = Release;
 		};
@@ -392,7 +394,7 @@
 				);
 				INFOPLIST_FILE = "background-image+Tests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = KangTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/background-image+.app/background-image+";
 			};
 			name = Debug;
@@ -407,7 +409,7 @@
 				);
 				INFOPLIST_FILE = "background-image+Tests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = KangTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/background-image+.app/background-image+";
 			};
 			name = Release;
@@ -415,7 +417,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0BE801801C63CD5700E761A6 /* Build configuration list for PBXProject "background-image+" */ = {
+		0BE801801C63CD5700E761A6 /* Build configuration list for PBXProject "Kang" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0BE801A21C63CD5700E761A6 /* Debug */,
@@ -424,7 +426,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0BE801A41C63CD5700E761A6 /* Build configuration list for PBXNativeTarget "background-image+" */ = {
+		0BE801A41C63CD5700E761A6 /* Build configuration list for PBXNativeTarget "Kang" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0BE801A51C63CD5700E761A6 /* Debug */,
@@ -433,7 +435,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0BE801A71C63CD5700E761A6 /* Build configuration list for PBXNativeTarget "background-image+Tests" */ = {
+		0BE801A71C63CD5700E761A6 /* Build configuration list for PBXNativeTarget "KangTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0BE801A81C63CD5700E761A6 /* Debug */,

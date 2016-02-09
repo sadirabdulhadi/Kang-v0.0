@@ -15,23 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "0BE801841C63CD5700E761A6"
-               BuildableName = "background-image+.app"
-               BlueprintName = "background-image+"
-               ReferencedContainer = "container:background-image+.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0BE801991C63CD5700E761A6"
-               BuildableName = "background-image+Tests.xctest"
-               BlueprintName = "background-image+Tests"
-               ReferencedContainer = "container:background-image+.xcodeproj">
+               BuildableName = "Kang.app"
+               BlueprintName = "Kang"
+               ReferencedContainer = "container:Kang.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -42,24 +28,14 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0BE801991C63CD5700E761A6"
-               BuildableName = "background-image+Tests.xctest"
-               BlueprintName = "background-image+Tests"
-               ReferencedContainer = "container:background-image+.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0BE801841C63CD5700E761A6"
-            BuildableName = "background-image+.app"
-            BlueprintName = "background-image+"
-            ReferencedContainer = "container:background-image+.xcodeproj">
+            BuildableName = "Kang.app"
+            BlueprintName = "Kang"
+            ReferencedContainer = "container:Kang.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -77,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0BE801841C63CD5700E761A6"
-            BuildableName = "background-image+.app"
-            BlueprintName = "background-image+"
-            ReferencedContainer = "container:background-image+.xcodeproj">
+            BuildableName = "Kang.app"
+            BlueprintName = "Kang"
+            ReferencedContainer = "container:Kang.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -96,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0BE801841C63CD5700E761A6"
-            BuildableName = "background-image+.app"
-            BlueprintName = "background-image+"
-            ReferencedContainer = "container:background-image+.xcodeproj">
+            BuildableName = "Kang.app"
+            BlueprintName = "Kang"
+            ReferencedContainer = "container:Kang.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
