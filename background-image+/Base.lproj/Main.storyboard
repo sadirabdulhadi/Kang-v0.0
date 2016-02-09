@@ -105,20 +105,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="sign up" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="djU-j5-kug">
-                                <rect key="frame" x="23" y="20" width="72" height="21.5"/>
-                                <fontDescription key="fontDescription" name="STHeitiTC-Light" family="Heiti TC" pointSize="21"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gender" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XgY-ni-xBL">
-                                <rect key="frame" x="27" y="261" width="57" height="20.5"/>
+                                <rect key="frame" x="27" y="236" width="57" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="First name" borderStyle="roundedRect" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FSr-uh-q0f">
-                                <rect key="frame" x="27" y="61" width="266" height="30"/>
+                                <rect key="frame" x="27" y="56" width="266" height="30"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="266" id="gym-ie-e8a"/>
@@ -128,7 +122,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Last name" borderStyle="roundedRect" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iRs-Tf-zjH">
-                                <rect key="frame" x="27" y="111" width="266" height="30"/>
+                                <rect key="frame" x="27" y="101" width="266" height="30"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="266" id="1uR-g9-OXj"/>
@@ -139,7 +133,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="UCL email" borderStyle="roundedRect" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Yen-XC-jLL">
-                                <rect key="frame" x="27" y="161" width="266" height="30"/>
+                                <rect key="frame" x="27" y="146" width="266" height="30"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="266" id="VGR-i5-MjT"/>
@@ -149,7 +143,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="UCL student number" borderStyle="roundedRect" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="snb-DU-EdB">
-                                <rect key="frame" x="27" y="211" width="266" height="30"/>
+                                <rect key="frame" x="27" y="191" width="266" height="30"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="266" id="qIA-Tb-vJq"/>
@@ -159,7 +153,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Retype Password" borderStyle="roundedRect" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="r01-7r-ZP2">
-                                <rect key="frame" x="27" y="351" width="266" height="30"/>
+                                <rect key="frame" x="27" y="316.5" width="266" height="30"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="266" id="w6E-Yx-MrB"/>
@@ -168,8 +162,8 @@
                                 <fontDescription key="fontDescription" name="STHeitiSC-Light" family="Heiti SC" pointSize="17"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="5Fm-FU-MVa">
-                                <rect key="frame" x="117" y="258" width="176" height="29"/>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="5Fm-FU-MVa">
+                                <rect key="frame" x="117" y="231" width="176" height="29"/>
                                 <segments>
                                     <segment title="Male"/>
                                     <segment title="Female"/>
@@ -190,7 +184,7 @@
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RTT-6b-dKT">
-                                <rect key="frame" x="27" y="401" width="266" height="34"/>
+                                <rect key="frame" x="27" y="361.5" width="266" height="73"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="266" id="7Le-Qb-p6p"/>
@@ -201,7 +195,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Password" borderStyle="roundedRect" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UPO-lI-M2z">
-                                <rect key="frame" x="27" y="301" width="266" height="30"/>
+                                <rect key="frame" x="27" y="271.5" width="266" height="30"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="266" id="lwQ-so-gAM"/>
@@ -210,6 +204,12 @@
                                 <fontDescription key="fontDescription" name="STHeitiSC-Light" family="Heiti SC" pointSize="17"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="sign up" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="djU-j5-kug">
+                                <rect key="frame" x="21" y="20" width="72" height="21.5"/>
+                                <fontDescription key="fontDescription" name="STHeitiTC-Light" family="Heiti TC" pointSize="21"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
@@ -217,23 +217,23 @@
                             <constraint firstAttribute="centerX" secondItem="UPO-lI-M2z" secondAttribute="centerX" id="1iU-VA-r6l"/>
                             <constraint firstItem="djU-j5-kug" firstAttribute="top" secondItem="MZI-Ga-u76" secondAttribute="bottom" id="28F-Fq-Yp2"/>
                             <constraint firstAttribute="centerX" secondItem="FSr-uh-q0f" secondAttribute="centerX" id="4vE-t7-doc"/>
-                            <constraint firstItem="FSr-uh-q0f" firstAttribute="top" secondItem="djU-j5-kug" secondAttribute="bottom" constant="20" id="GaP-GN-CZo"/>
-                            <constraint firstItem="snb-DU-EdB" firstAttribute="top" secondItem="Yen-XC-jLL" secondAttribute="bottom" constant="20" id="N8s-v0-B1Z"/>
+                            <constraint firstItem="FSr-uh-q0f" firstAttribute="top" secondItem="djU-j5-kug" secondAttribute="bottom" constant="15" id="GaP-GN-CZo"/>
+                            <constraint firstItem="snb-DU-EdB" firstAttribute="top" secondItem="Yen-XC-jLL" secondAttribute="bottom" constant="15" id="N8s-v0-B1Z"/>
                             <constraint firstItem="snb-DU-EdB" firstAttribute="trailing" secondItem="5Fm-FU-MVa" secondAttribute="trailing" id="NFN-Lp-4xW"/>
                             <constraint firstAttribute="centerX" secondItem="Yen-XC-jLL" secondAttribute="centerX" id="Pps-aW-xh0"/>
                             <constraint firstItem="pcX-47-uq0" firstAttribute="top" secondItem="OaZ-BF-BcG" secondAttribute="bottom" constant="8" id="QVH-pu-Qab"/>
                             <constraint firstAttribute="centerX" secondItem="iRs-Tf-zjH" secondAttribute="centerX" id="SZm-HW-dnd"/>
-                            <constraint firstItem="djU-j5-kug" firstAttribute="leading" secondItem="Ex4-jR-950" secondAttribute="leadingMargin" constant="7" id="TZd-fG-iUw"/>
+                            <constraint firstItem="djU-j5-kug" firstAttribute="leading" secondItem="Ex4-jR-950" secondAttribute="leadingMargin" constant="5" id="TZd-fG-iUw"/>
                             <constraint firstAttribute="centerX" secondItem="snb-DU-EdB" secondAttribute="centerX" id="TaF-W9-Scw"/>
-                            <constraint firstItem="r01-7r-ZP2" firstAttribute="top" secondItem="UPO-lI-M2z" secondAttribute="bottom" constant="20" id="ZQw-Ef-Rhw"/>
-                            <constraint firstItem="RTT-6b-dKT" firstAttribute="top" secondItem="r01-7r-ZP2" secondAttribute="bottom" constant="20" id="c9w-MG-eRb"/>
-                            <constraint firstItem="iRs-Tf-zjH" firstAttribute="top" secondItem="FSr-uh-q0f" secondAttribute="bottom" constant="20" id="hhi-23-9ew"/>
+                            <constraint firstItem="r01-7r-ZP2" firstAttribute="top" secondItem="UPO-lI-M2z" secondAttribute="bottom" constant="15" id="ZQw-Ef-Rhw"/>
+                            <constraint firstItem="RTT-6b-dKT" firstAttribute="top" secondItem="r01-7r-ZP2" secondAttribute="bottom" constant="15" id="c9w-MG-eRb"/>
+                            <constraint firstItem="iRs-Tf-zjH" firstAttribute="top" secondItem="FSr-uh-q0f" secondAttribute="bottom" constant="15" id="hhi-23-9ew"/>
                             <constraint firstAttribute="centerX" secondItem="r01-7r-ZP2" secondAttribute="centerX" id="iDq-pd-uOn"/>
-                            <constraint firstItem="5Fm-FU-MVa" firstAttribute="top" secondItem="snb-DU-EdB" secondAttribute="bottom" constant="15" id="joQ-zb-uKQ"/>
+                            <constraint firstItem="5Fm-FU-MVa" firstAttribute="top" secondItem="snb-DU-EdB" secondAttribute="bottom" constant="10" id="joQ-zb-uKQ"/>
                             <constraint firstItem="pcX-47-uq0" firstAttribute="top" secondItem="RTT-6b-dKT" secondAttribute="bottom" constant="45" id="lCC-9k-CBh"/>
-                            <constraint firstItem="UPO-lI-M2z" firstAttribute="top" secondItem="XgY-ni-xBL" secondAttribute="bottom" constant="20" id="mwx-qi-bbV"/>
-                            <constraint firstItem="XgY-ni-xBL" firstAttribute="top" secondItem="snb-DU-EdB" secondAttribute="bottom" constant="20" id="n4B-kd-qZ2"/>
-                            <constraint firstItem="Yen-XC-jLL" firstAttribute="top" secondItem="iRs-Tf-zjH" secondAttribute="bottom" constant="20" id="srq-Bi-aHE"/>
+                            <constraint firstItem="UPO-lI-M2z" firstAttribute="top" secondItem="XgY-ni-xBL" secondAttribute="bottom" constant="15" id="mwx-qi-bbV"/>
+                            <constraint firstItem="XgY-ni-xBL" firstAttribute="top" secondItem="snb-DU-EdB" secondAttribute="bottom" constant="15" id="n4B-kd-qZ2"/>
+                            <constraint firstItem="Yen-XC-jLL" firstAttribute="top" secondItem="iRs-Tf-zjH" secondAttribute="bottom" constant="15" id="srq-Bi-aHE"/>
                             <constraint firstItem="XgY-ni-xBL" firstAttribute="leading" secondItem="snb-DU-EdB" secondAttribute="leading" id="vIF-Vx-oZV"/>
                             <constraint firstItem="OaZ-BF-BcG" firstAttribute="trailing" secondItem="Ex4-jR-950" secondAttribute="trailingMargin" id="var-f9-s14"/>
                         </constraints>
@@ -251,7 +251,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qRG-A3-EA3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="452" y="322"/>
+            <point key="canvasLocation" x="421" y="278"/>
         </scene>
         <!--Title-->
         <scene sceneID="J4z-nD-ZIA">
