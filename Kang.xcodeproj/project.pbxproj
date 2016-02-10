@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0BCE55111C6B75100083A2BE /* AdobeHeitiStd-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0BCE55101C6B75100083A2BE /* AdobeHeitiStd-Regular.otf */; };
+		0BCE55131C6B75250083A2BE /* STHeiti Light.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 0BCE55121C6B75250083A2BE /* STHeiti Light.ttc */; };
+		0BCE55151C6B7B950083A2BE /* signUpTheraPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCE55141C6B7B950083A2BE /* signUpTheraPage.swift */; };
+		0BCE55171C6B7CBE0083A2BE /* QuestionThera1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCE55161C6B7CBE0083A2BE /* QuestionThera1.swift */; };
+		0BCE551B1C6B81010083A2BE /* QuestionThera2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCE551A1C6B81010083A2BE /* QuestionThera2.swift */; };
+		0BCE551E1C6B8B4E0083A2BE /* QuestionThera3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCE551D1C6B8B4E0083A2BE /* QuestionThera3.swift */; };
 		0BE8018B1C63CD5700E761A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE8018A1C63CD5700E761A6 /* AppDelegate.swift */; };
 		0BE8018D1C63CD5700E761A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE8018C1C63CD5700E761A6 /* ViewController.swift */; };
 		0BE801921C63CD5700E761A6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BE801911C63CD5700E761A6 /* Images.xcassets */; };
@@ -31,6 +37,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0BCE55101C6B75100083A2BE /* AdobeHeitiStd-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AdobeHeitiStd-Regular.otf"; sourceTree = "<group>"; };
+		0BCE55121C6B75250083A2BE /* STHeiti Light.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "STHeiti Light.ttc"; sourceTree = "<group>"; };
+		0BCE55141C6B7B950083A2BE /* signUpTheraPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = signUpTheraPage.swift; sourceTree = "<group>"; };
+		0BCE55161C6B7CBE0083A2BE /* QuestionThera1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionThera1.swift; sourceTree = "<group>"; };
+		0BCE551A1C6B81010083A2BE /* QuestionThera2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionThera2.swift; sourceTree = "<group>"; };
+		0BCE551D1C6B8B4E0083A2BE /* QuestionThera3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionThera3.swift; sourceTree = "<group>"; };
 		0BE801851C63CD5700E761A6 /* Kang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kang.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BE801891C63CD5700E761A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0BE8018A1C63CD5700E761A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -95,6 +107,10 @@
 				0BE802041C66AF3300E761A6 /* Question2.swift */,
 				0BE802061C67BC9E00E761A6 /* Question3.swift */,
 				0BE802081C67C1E200E761A6 /* Question4.swift */,
+				0BCE55141C6B7B950083A2BE /* signUpTheraPage.swift */,
+				0BCE55161C6B7CBE0083A2BE /* QuestionThera1.swift */,
+				0BCE551A1C6B81010083A2BE /* QuestionThera2.swift */,
+				0BCE551D1C6B8B4E0083A2BE /* QuestionThera3.swift */,
 				0BE801911C63CD5700E761A6 /* Images.xcassets */,
 				0BE801931C63CD5700E761A6 /* LaunchScreen.xib */,
 				0BE801881C63CD5700E761A6 /* Supporting Files */,
@@ -106,6 +122,8 @@
 		0BE801881C63CD5700E761A6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0BCE55121C6B75250083A2BE /* STHeiti Light.ttc */,
+				0BCE55101C6B75100083A2BE /* AdobeHeitiStd-Regular.otf */,
 				0BE801891C63CD5700E761A6 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -173,11 +191,14 @@
 		0BE8017D1C63CD5700E761A6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0720;
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = UCL;
 				TargetAttributes = {
 					0BE801841C63CD5700E761A6 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 8SSS278KJ9;
 					};
 					0BE801991C63CD5700E761A6 = {
 						CreatedOnToolsVersion = 6.4;
@@ -209,6 +230,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BCE55111C6B75100083A2BE /* AdobeHeitiStd-Regular.otf in Resources */,
+				0BCE55131C6B75250083A2BE /* STHeiti Light.ttc in Resources */,
 				0BE801F21C6525AB00E761A6 /* Main.storyboard in Resources */,
 				0BE801951C63CD5700E761A6 /* LaunchScreen.xib in Resources */,
 				0BE801921C63CD5700E761A6 /* Images.xcassets in Resources */,
@@ -229,13 +252,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BCE55171C6B7CBE0083A2BE /* QuestionThera1.swift in Sources */,
+				0BCE551E1C6B8B4E0083A2BE /* QuestionThera3.swift in Sources */,
 				0BE802051C66AF3300E761A6 /* Question2.swift in Sources */,
 				0BE8018D1C63CD5700E761A6 /* ViewController.swift in Sources */,
 				0BE802091C67C1E200E761A6 /* Question4.swift in Sources */,
 				0BE8020B1C67CF0600E761A6 /* signUpPage.swift in Sources */,
+				0BCE551B1C6B81010083A2BE /* QuestionThera2.swift in Sources */,
 				0BE802071C67BC9E00E761A6 /* Question3.swift in Sources */,
 				0BE802031C66AF2300E761A6 /* Question1.swift in Sources */,
 				0BE8018B1C63CD5700E761A6 /* AppDelegate.swift in Sources */,
+				0BCE55151C6B7B950083A2BE /* signUpTheraPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,9 +391,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "background-image+/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = Kang;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -374,9 +404,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "background-image+/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = Kang;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

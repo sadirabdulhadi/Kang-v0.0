@@ -9,6 +9,14 @@
 import UIKit
 
 class Question1: UIViewController {
+    @IBOutlet weak var score: UILabel!
+    @IBOutlet weak var slider: UISlider!
+    
+    @IBAction func sliderChange(sender: UISlider) {
+        let sliderValue = Int(round(sender.value))
+        score.text = "\(sliderValue)"
+    }
+    
         override func viewDidLoad() {
         super.viewDidLoad()
            }
@@ -17,6 +25,7 @@ class Question1: UIViewController {
         super.didReceiveMemoryWarning()
             }
     
+   
     
 }
 

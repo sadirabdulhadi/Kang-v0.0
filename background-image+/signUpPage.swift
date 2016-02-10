@@ -21,15 +21,18 @@ class signUpPage: UIViewController {
         super.viewDidLoad()
     }
     
-    override func touchesBegan(touches: Set<NSObject>, withEvent event: UIEvent) {
+    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
         self.view.endEditing(true)
     }
     
-    override func shouldPerformSegueWithIdentifier(identifier: String!, sender: AnyObject!) -> Bool {
+    override func shouldPerformSegueWithIdentifier(identifier: String, sender: AnyObject!) -> Bool {
         if ( (firstNameField.text == "First name") || (lastNameField.text == "") || (snField.text == "") || (snField.text == "UCL student number") || (lastNameField.text == "Last name") || (firstNameField.text == "") || (emailField.text == "") || (emailField.text == "UCL email") || (passField.text == "") || (passField.text == "Password") || (repassField.text == "") || (repassField.text == "Retype Password") || (passField.text != repassField.text)){
                 return false
         }
         else {return true}
+    }
+    @IBAction func backButtonTapped(sender: AnyObject) {
+        performSegueWithIdentifier("lastPage", sender: nil)
     }
     
     @IBAction func registerButtonTapped(sender: AnyObject) {
@@ -43,7 +46,7 @@ class signUpPage: UIViewController {
         
         //check for empty fields
         
-        if ( firstName.isEmpty || (firstName == "First name") || lastName.isEmpty || lastName=="Last Name" || userEmail.isEmpty || (userEmail == "UCL email") || sn.isEmpty || sn == "UCL student number" || password.isEmpty || password=="Password" || repeatPassword.isEmpty || repeatPassword=="Retype Passowrd") {
+        if ( firstName!.isEmpty || (firstName == "First name") || lastName!.isEmpty || lastName=="Last Name" || userEmail!.isEmpty || (userEmail == "UCL email") || sn!.isEmpty || sn == "UCL student number" || password!.isEmpty || password=="Password" || repeatPassword!.isEmpty || repeatPassword=="Retype Passowrd") {
             displayAlertMessage("One of the fields is empty")
             return
         }
@@ -68,7 +71,7 @@ class signUpPage: UIViewController {
     }
     
     func displayAlertMessage(messageText:String){
-        var myAlert = UIAlertController(title: "Alert", message:messageText, preferredStyle: .Alert);
+        let myAlert = UIAlertController(title: "Alert", message:messageText, preferredStyle: .Alert);
         let  okAction=UIAlertAction(title: "ok", style: UIAlertActionStyle.Default, handler:nil)
         myAlert.addAction(okAction)
         
