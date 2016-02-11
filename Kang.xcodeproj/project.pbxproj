@@ -13,6 +13,7 @@
 		0BCE55171C6B7CBE0083A2BE /* QuestionThera1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCE55161C6B7CBE0083A2BE /* QuestionThera1.swift */; };
 		0BCE551B1C6B81010083A2BE /* QuestionThera2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCE551A1C6B81010083A2BE /* QuestionThera2.swift */; };
 		0BCE551E1C6B8B4E0083A2BE /* QuestionThera3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCE551D1C6B8B4E0083A2BE /* QuestionThera3.swift */; };
+		0BCE55221C6CC6190083A2BE /* TellUsThera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCE55211C6CC6190083A2BE /* TellUsThera.swift */; };
 		0BE8018B1C63CD5700E761A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE8018A1C63CD5700E761A6 /* AppDelegate.swift */; };
 		0BE8018D1C63CD5700E761A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE8018C1C63CD5700E761A6 /* ViewController.swift */; };
 		0BE801921C63CD5700E761A6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BE801911C63CD5700E761A6 /* Images.xcassets */; };
@@ -43,6 +44,7 @@
 		0BCE55161C6B7CBE0083A2BE /* QuestionThera1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionThera1.swift; sourceTree = "<group>"; };
 		0BCE551A1C6B81010083A2BE /* QuestionThera2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionThera2.swift; sourceTree = "<group>"; };
 		0BCE551D1C6B8B4E0083A2BE /* QuestionThera3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionThera3.swift; sourceTree = "<group>"; };
+		0BCE55211C6CC6190083A2BE /* TellUsThera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TellUsThera.swift; sourceTree = "<group>"; };
 		0BE801851C63CD5700E761A6 /* Kang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kang.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BE801891C63CD5700E761A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0BE8018A1C63CD5700E761A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 				0BCE55161C6B7CBE0083A2BE /* QuestionThera1.swift */,
 				0BCE551A1C6B81010083A2BE /* QuestionThera2.swift */,
 				0BCE551D1C6B8B4E0083A2BE /* QuestionThera3.swift */,
+				0BCE55211C6CC6190083A2BE /* TellUsThera.swift */,
 				0BE801911C63CD5700E761A6 /* Images.xcassets */,
 				0BE801931C63CD5700E761A6 /* LaunchScreen.xib */,
 				0BE801881C63CD5700E761A6 /* Supporting Files */,
@@ -257,6 +260,7 @@
 				0BE802051C66AF3300E761A6 /* Question2.swift in Sources */,
 				0BE8018D1C63CD5700E761A6 /* ViewController.swift in Sources */,
 				0BE802091C67C1E200E761A6 /* Question4.swift in Sources */,
+				0BCE55221C6CC6190083A2BE /* TellUsThera.swift in Sources */,
 				0BE8020B1C67CF0600E761A6 /* signUpPage.swift in Sources */,
 				0BCE551B1C6B81010083A2BE /* QuestionThera2.swift in Sources */,
 				0BE802071C67BC9E00E761A6 /* Question3.swift in Sources */,
