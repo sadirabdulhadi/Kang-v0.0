@@ -14,6 +14,10 @@
 		0BCE551B1C6B81010083A2BE /* QuestionThera2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCE551A1C6B81010083A2BE /* QuestionThera2.swift */; };
 		0BCE551E1C6B8B4E0083A2BE /* QuestionThera3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCE551D1C6B8B4E0083A2BE /* QuestionThera3.swift */; };
 		0BCE55221C6CC6190083A2BE /* TellUsThera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCE55211C6CC6190083A2BE /* TellUsThera.swift */; };
+		0BD332221C7141F300E5F31D /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BD332201C7141F300E5F31D /* Realm.framework */; };
+		0BD332231C7141F300E5F31D /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0BD332201C7141F300E5F31D /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0BD332241C7141F300E5F31D /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BD332211C7141F300E5F31D /* RealmSwift.framework */; };
+		0BD332251C7141F300E5F31D /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0BD332211C7141F300E5F31D /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		0BE8018B1C63CD5700E761A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE8018A1C63CD5700E761A6 /* AppDelegate.swift */; };
 		0BE8018D1C63CD5700E761A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE8018C1C63CD5700E761A6 /* ViewController.swift */; };
 		0BE801921C63CD5700E761A6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BE801911C63CD5700E761A6 /* Images.xcassets */; };
@@ -37,6 +41,21 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		0BD332261C7141F300E5F31D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0BD332251C7141F300E5F31D /* RealmSwift.framework in Embed Frameworks */,
+				0BD332231C7141F300E5F31D /* Realm.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		0BCE55101C6B75100083A2BE /* AdobeHeitiStd-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AdobeHeitiStd-Regular.otf"; sourceTree = "<group>"; };
 		0BCE55121C6B75250083A2BE /* STHeiti Light.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "STHeiti Light.ttc"; sourceTree = "<group>"; };
@@ -45,6 +64,8 @@
 		0BCE551A1C6B81010083A2BE /* QuestionThera2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionThera2.swift; sourceTree = "<group>"; };
 		0BCE551D1C6B8B4E0083A2BE /* QuestionThera3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionThera3.swift; sourceTree = "<group>"; };
 		0BCE55211C6CC6190083A2BE /* TellUsThera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TellUsThera.swift; sourceTree = "<group>"; };
+		0BD332201C7141F300E5F31D /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
+		0BD332211C7141F300E5F31D /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = "<group>"; };
 		0BE801851C63CD5700E761A6 /* Kang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kang.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BE801891C63CD5700E761A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0BE8018A1C63CD5700E761A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -67,6 +88,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BD332241C7141F300E5F31D /* RealmSwift.framework in Frameworks */,
+				0BD332221C7141F300E5F31D /* Realm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +106,8 @@
 		0BE8017C1C63CD5700E761A6 = {
 			isa = PBXGroup;
 			children = (
+				0BD332201C7141F300E5F31D /* Realm.framework */,
+				0BD332211C7141F300E5F31D /* RealmSwift.framework */,
 				0BE801871C63CD5700E761A6 /* Kang */,
 				0BE8019D1C63CD5700E761A6 /* KangTests */,
 				0BE801861C63CD5700E761A6 /* Products */,
@@ -160,6 +185,8 @@
 				0BE801811C63CD5700E761A6 /* Sources */,
 				0BE801821C63CD5700E761A6 /* Frameworks */,
 				0BE801831C63CD5700E761A6 /* Resources */,
+				0BD332261C7141F300E5F31D /* Embed Frameworks */,
+				0BD332271C71436400E5F31D /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -249,6 +276,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0BD332271C71436400E5F31D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "bash \"${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework/strip-frameworks.sh\"";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0BE801811C63CD5700E761A6 /* Sources */ = {
@@ -397,6 +440,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "background-image+/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = Kang;
@@ -410,6 +457,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "background-image+/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = Kang;
