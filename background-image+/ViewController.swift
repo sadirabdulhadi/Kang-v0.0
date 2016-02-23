@@ -11,8 +11,6 @@ import UIKit
 class ViewController: UIViewController {
     @IBOutlet weak var email: UITextField!
     @IBOutlet weak var password: UITextField!
-
-    @IBOutlet weak var signUpAsTherapist: UIButton!
     
 
     

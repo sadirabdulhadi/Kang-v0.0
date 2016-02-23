@@ -8,24 +8,25 @@
 
 import UIKit
 
-class Question1: UIViewController {
+class QuestionDirectiveThera: UIViewController {
     @IBOutlet weak var score: UILabel!
     @IBOutlet weak var slider: UISlider!
     
+
     @IBAction func sliderChange(sender: UISlider) {
         let sliderValue = Int(round(sender.value))
         score.text = "\(sliderValue)"
     }
     
-        override func viewDidLoad() {
+    override func viewDidLoad() {
         super.viewDidLoad()
-           }
+    }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-            }
+    }
     
-   
+    
     
 }
 

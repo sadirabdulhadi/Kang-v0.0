@@ -10,24 +10,25 @@
 		0BCE55111C6B75100083A2BE /* AdobeHeitiStd-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0BCE55101C6B75100083A2BE /* AdobeHeitiStd-Regular.otf */; };
 		0BCE55131C6B75250083A2BE /* STHeiti Light.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 0BCE55121C6B75250083A2BE /* STHeiti Light.ttc */; };
 		0BCE55151C6B7B950083A2BE /* signUpTheraPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCE55141C6B7B950083A2BE /* signUpTheraPage.swift */; };
-		0BCE55171C6B7CBE0083A2BE /* QuestionThera1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCE55161C6B7CBE0083A2BE /* QuestionThera1.swift */; };
-		0BCE551B1C6B81010083A2BE /* QuestionThera2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCE551A1C6B81010083A2BE /* QuestionThera2.swift */; };
+		0BCE55171C6B7CBE0083A2BE /* QuestionDirectiveThera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCE55161C6B7CBE0083A2BE /* QuestionDirectiveThera.swift */; };
+		0BCE551B1C6B81010083A2BE /* QuestionEthnicityThera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCE551A1C6B81010083A2BE /* QuestionEthnicityThera.swift */; };
 		0BCE551E1C6B8B4E0083A2BE /* QuestionThera3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCE551D1C6B8B4E0083A2BE /* QuestionThera3.swift */; };
 		0BCE55221C6CC6190083A2BE /* TellUsThera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCE55211C6CC6190083A2BE /* TellUsThera.swift */; };
 		0BD332221C7141F300E5F31D /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BD332201C7141F300E5F31D /* Realm.framework */; };
 		0BD332231C7141F300E5F31D /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0BD332201C7141F300E5F31D /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		0BD332241C7141F300E5F31D /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BD332211C7141F300E5F31D /* RealmSwift.framework */; };
 		0BD332251C7141F300E5F31D /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0BD332211C7141F300E5F31D /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0BD3326A1C76272100E5F31D /* QuestionExpertPatient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD332691C76272100E5F31D /* QuestionExpertPatient.swift */; };
 		0BE8018B1C63CD5700E761A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE8018A1C63CD5700E761A6 /* AppDelegate.swift */; };
 		0BE8018D1C63CD5700E761A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE8018C1C63CD5700E761A6 /* ViewController.swift */; };
 		0BE801921C63CD5700E761A6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BE801911C63CD5700E761A6 /* Images.xcassets */; };
 		0BE801951C63CD5700E761A6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0BE801931C63CD5700E761A6 /* LaunchScreen.xib */; };
 		0BE801A11C63CD5700E761A6 /* background_image_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE801A01C63CD5700E761A6 /* background_image_Tests.swift */; };
 		0BE801F21C6525AB00E761A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BE801F01C6525AB00E761A6 /* Main.storyboard */; };
-		0BE802031C66AF2300E761A6 /* Question1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE802021C66AF2300E761A6 /* Question1.swift */; };
-		0BE802051C66AF3300E761A6 /* Question2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE802041C66AF3300E761A6 /* Question2.swift */; };
-		0BE802071C67BC9E00E761A6 /* Question3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE802061C67BC9E00E761A6 /* Question3.swift */; };
-		0BE802091C67C1E200E761A6 /* Question4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE802081C67C1E200E761A6 /* Question4.swift */; };
+		0BE802031C66AF2300E761A6 /* QuestionDirectivePatient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE802021C66AF2300E761A6 /* QuestionDirectivePatient.swift */; };
+		0BE802051C66AF3300E761A6 /* QuestionEthnicityPatient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE802041C66AF3300E761A6 /* QuestionEthnicityPatient.swift */; };
+		0BE802071C67BC9E00E761A6 /* QuestionGenderPatient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE802061C67BC9E00E761A6 /* QuestionGenderPatient.swift */; };
+		0BE802091C67C1E200E761A6 /* QuestionChildhoodPatient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE802081C67C1E200E761A6 /* QuestionChildhoodPatient.swift */; };
 		0BE8020B1C67CF0600E761A6 /* signUpPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE8020A1C67CF0600E761A6 /* signUpPage.swift */; };
 /* End PBXBuildFile section */
 
@@ -60,12 +61,13 @@
 		0BCE55101C6B75100083A2BE /* AdobeHeitiStd-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AdobeHeitiStd-Regular.otf"; sourceTree = "<group>"; };
 		0BCE55121C6B75250083A2BE /* STHeiti Light.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "STHeiti Light.ttc"; sourceTree = "<group>"; };
 		0BCE55141C6B7B950083A2BE /* signUpTheraPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = signUpTheraPage.swift; sourceTree = "<group>"; };
-		0BCE55161C6B7CBE0083A2BE /* QuestionThera1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionThera1.swift; sourceTree = "<group>"; };
-		0BCE551A1C6B81010083A2BE /* QuestionThera2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionThera2.swift; sourceTree = "<group>"; };
+		0BCE55161C6B7CBE0083A2BE /* QuestionDirectiveThera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionDirectiveThera.swift; sourceTree = "<group>"; };
+		0BCE551A1C6B81010083A2BE /* QuestionEthnicityThera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionEthnicityThera.swift; sourceTree = "<group>"; };
 		0BCE551D1C6B8B4E0083A2BE /* QuestionThera3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionThera3.swift; sourceTree = "<group>"; };
 		0BCE55211C6CC6190083A2BE /* TellUsThera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TellUsThera.swift; sourceTree = "<group>"; };
 		0BD332201C7141F300E5F31D /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
 		0BD332211C7141F300E5F31D /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = "<group>"; };
+		0BD332691C76272100E5F31D /* QuestionExpertPatient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionExpertPatient.swift; sourceTree = "<group>"; };
 		0BE801851C63CD5700E761A6 /* Kang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kang.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BE801891C63CD5700E761A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0BE8018A1C63CD5700E761A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -76,10 +78,10 @@
 		0BE8019F1C63CD5700E761A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0BE801A01C63CD5700E761A6 /* background_image_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = background_image_Tests.swift; sourceTree = "<group>"; };
 		0BE801F11C6525AB00E761A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0BE802021C66AF2300E761A6 /* Question1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Question1.swift; sourceTree = "<group>"; };
-		0BE802041C66AF3300E761A6 /* Question2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Question2.swift; sourceTree = "<group>"; };
-		0BE802061C67BC9E00E761A6 /* Question3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Question3.swift; sourceTree = "<group>"; };
-		0BE802081C67C1E200E761A6 /* Question4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Question4.swift; sourceTree = "<group>"; };
+		0BE802021C66AF2300E761A6 /* QuestionDirectivePatient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionDirectivePatient.swift; sourceTree = "<group>"; };
+		0BE802041C66AF3300E761A6 /* QuestionEthnicityPatient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionEthnicityPatient.swift; sourceTree = "<group>"; };
+		0BE802061C67BC9E00E761A6 /* QuestionGenderPatient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionGenderPatient.swift; sourceTree = "<group>"; };
+		0BE802081C67C1E200E761A6 /* QuestionChildhoodPatient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionChildhoodPatient.swift; sourceTree = "<group>"; };
 		0BE8020A1C67CF0600E761A6 /* signUpPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = signUpPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -130,13 +132,14 @@
 				0BE801F01C6525AB00E761A6 /* Main.storyboard */,
 				0BE8018C1C63CD5700E761A6 /* ViewController.swift */,
 				0BE8020A1C67CF0600E761A6 /* signUpPage.swift */,
-				0BE802021C66AF2300E761A6 /* Question1.swift */,
-				0BE802041C66AF3300E761A6 /* Question2.swift */,
-				0BE802061C67BC9E00E761A6 /* Question3.swift */,
-				0BE802081C67C1E200E761A6 /* Question4.swift */,
+				0BE802021C66AF2300E761A6 /* QuestionDirectivePatient.swift */,
+				0BE802041C66AF3300E761A6 /* QuestionEthnicityPatient.swift */,
+				0BE802061C67BC9E00E761A6 /* QuestionGenderPatient.swift */,
+				0BE802081C67C1E200E761A6 /* QuestionChildhoodPatient.swift */,
+				0BD332691C76272100E5F31D /* QuestionExpertPatient.swift */,
 				0BCE55141C6B7B950083A2BE /* signUpTheraPage.swift */,
-				0BCE55161C6B7CBE0083A2BE /* QuestionThera1.swift */,
-				0BCE551A1C6B81010083A2BE /* QuestionThera2.swift */,
+				0BCE55161C6B7CBE0083A2BE /* QuestionDirectiveThera.swift */,
+				0BCE551A1C6B81010083A2BE /* QuestionEthnicityThera.swift */,
 				0BCE551D1C6B8B4E0083A2BE /* QuestionThera3.swift */,
 				0BCE55211C6CC6190083A2BE /* TellUsThera.swift */,
 				0BE801911C63CD5700E761A6 /* Images.xcassets */,
@@ -298,16 +301,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0BCE55171C6B7CBE0083A2BE /* QuestionThera1.swift in Sources */,
+				0BCE55171C6B7CBE0083A2BE /* QuestionDirectiveThera.swift in Sources */,
 				0BCE551E1C6B8B4E0083A2BE /* QuestionThera3.swift in Sources */,
-				0BE802051C66AF3300E761A6 /* Question2.swift in Sources */,
+				0BE802051C66AF3300E761A6 /* QuestionEthnicityPatient.swift in Sources */,
 				0BE8018D1C63CD5700E761A6 /* ViewController.swift in Sources */,
-				0BE802091C67C1E200E761A6 /* Question4.swift in Sources */,
+				0BD3326A1C76272100E5F31D /* QuestionExpertPatient.swift in Sources */,
+				0BE802091C67C1E200E761A6 /* QuestionChildhoodPatient.swift in Sources */,
 				0BCE55221C6CC6190083A2BE /* TellUsThera.swift in Sources */,
 				0BE8020B1C67CF0600E761A6 /* signUpPage.swift in Sources */,
-				0BCE551B1C6B81010083A2BE /* QuestionThera2.swift in Sources */,
-				0BE802071C67BC9E00E761A6 /* Question3.swift in Sources */,
-				0BE802031C66AF2300E761A6 /* Question1.swift in Sources */,
+				0BCE551B1C6B81010083A2BE /* QuestionEthnicityThera.swift in Sources */,
+				0BE802071C67BC9E00E761A6 /* QuestionGenderPatient.swift in Sources */,
+				0BE802031C66AF2300E761A6 /* QuestionDirectivePatient.swift in Sources */,
 				0BE8018B1C63CD5700E761A6 /* AppDelegate.swift in Sources */,
 				0BCE55151C6B7B950083A2BE /* signUpTheraPage.swift in Sources */,
 			);

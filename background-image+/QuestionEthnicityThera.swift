@@ -18,7 +18,7 @@ class QuestionThera2: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
         self.picker.delegate = self
         self.picker.dataSource = self
         
-        pickerData = ["Caucasian", "Black", "South Asian", "East Asian", "Middle Eastern or North African", "Other"]
+        pickerData = ["South Asian", "East Asian", "Hispanic", "Caucasian", "Black", "Middle Eastern/North African","Other", "I would rather not say"]
     }
     
     override func didReceiveMemoryWarning() {

@@ -8,7 +8,7 @@
 
 import UIKit
 
-class Question2: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource  {
+class QuestionChildhoodPatient: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource  {
     @IBOutlet weak var picker: UIPickerView!
     var pickerData: [String] = [String]()
     override func viewDidLoad() {
@@ -18,7 +18,7 @@ class Question2: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource 
         self.picker.delegate = self
         self.picker.dataSource = self
         
-        pickerData = ["Caucasian", "Black", "South Asian", "East Asian", "Middle Eastern or North African", "Other","I don't care"]
+        pickerData = ["No, not really", "Yes, of course!", "I don't mind"]
     }
     
     override func didReceiveMemoryWarning() {

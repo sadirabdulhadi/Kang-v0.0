@@ -8,7 +8,7 @@
 
 import UIKit
 
-class Question3: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource  {
+class QuestionExpertPatient: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource  {
     @IBOutlet weak var picker: UIPickerView!
     var pickerData: [String] = [String]()
     override func viewDidLoad() {
@@ -18,7 +18,7 @@ class Question3: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource 
         self.picker.delegate = self
         self.picker.dataSource = self
         
-        pickerData = ["Male", "Female", "Other","I don't care"]
+        pickerData = ["No,I have multiple issues", "No, not sure about the issues", "Anxiety", "Behavioural control", "Bereavement", "Depression", "Drug and alcohol problems", "Eating or body image issues", "Obsessions and compulsions", "Relationship issues", "Self-harm", "Sexuality or gender issues", "Stress" ]
     }
     
     override func didReceiveMemoryWarning() {

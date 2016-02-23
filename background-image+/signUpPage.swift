@@ -9,6 +9,8 @@ import UIKit
 
 class signUpPage: UIViewController {
     
+    //text fields
+    
     @IBOutlet weak var firstNameField: UITextField!
     @IBOutlet weak var lastNameField: UITextField!
     @IBOutlet weak var emailField: UITextField!
@@ -26,7 +28,7 @@ class signUpPage: UIViewController {
     }
     
     override func shouldPerformSegueWithIdentifier(identifier: String, sender: AnyObject!) -> Bool {
-        if ( (firstNameField.text == "First name") || (lastNameField.text == "") || (snField.text == "") || (snField.text == "UCL student number") || (lastNameField.text == "Last name") || (firstNameField.text == "") || (emailField.text == "") || (emailField.text == "UCL email") || (passField.text == "") || (passField.text == "Password") || (repassField.text == "") || (repassField.text == "Retype Password") || (passField.text != repassField.text)){
+        if ( (emailField.text == "") || (emailField.text == "UCL email") || (passField.text == "") || (passField.text == "Password") || (repassField.text == "") || (repassField.text == "Retype Password") || (passField.text != repassField.text)){
                 return false
         }
         else {return true}
@@ -36,9 +38,7 @@ class signUpPage: UIViewController {
     }
     
     @IBAction func registerButtonTapped(sender: AnyObject) {
-        let firstName = firstNameField.text
-        let lastName = lastNameField.text
-        let sn = snField.text
+
         let userEmail = emailField.text
         let password = passField.text
         let repeatPassword = repassField.text
@@ -46,7 +46,7 @@ class signUpPage: UIViewController {
         
         //check for empty fields
         
-        if ( firstName!.isEmpty || (firstName == "First name") || lastName!.isEmpty || lastName=="Last Name" || userEmail!.isEmpty || (userEmail == "UCL email") || sn!.isEmpty || sn == "UCL student number" || password!.isEmpty || password=="Password" || repeatPassword!.isEmpty || repeatPassword=="Retype Passowrd") {
+        if (userEmail!.isEmpty || (userEmail == "UCL email") || password!.isEmpty || password=="Password" || repeatPassword!.isEmpty || repeatPassword=="Retype Passowrd") {
             displayAlertMessage("One of the fields is empty")
             return
         }
@@ -61,9 +61,10 @@ class signUpPage: UIViewController {
         
         else{
             performSegueWithIdentifier("nextPage", sender: nil)
+            //store data
+            //display alert message with confirmation
         }
-        //store data
-        //display alert message with confirmation
+
     }
     
     override func didReceiveMemoryWarning() {
